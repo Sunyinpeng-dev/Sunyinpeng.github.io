@@ -21,7 +21,7 @@ function setUserName() {
         setUserName();
     } else {
         localStorage.setItem('name', myName);
-        myHeading.textContent = 'Mozilla 酷毙了,' + myName;
+        myHeading.textContent = 'Mozilla 棒极了,' + myName;
     }   
 }
 
@@ -30,7 +30,7 @@ if(!localStorage.getItem('name')) {
     setUserName();
 } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla 酷毙了,' + storedName;
+    myHeading.textContent = 'Mozilla 棒极了,' + storedName;
 }
 
 //为按钮设置onclick时间处理器
