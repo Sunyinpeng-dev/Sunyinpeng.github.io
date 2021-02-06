@@ -3,13 +3,13 @@ html {
     font-size: 10px;      /*设置字号*/
     /* Google fonts 输出的 CSS */
     font-family: 'Kirang Haerang', cursive;  /*设置字体*/
-    background-color: #00539f;
+    background-color: #00539f;  /*设置元素的背景颜色*/
   }
 
   body {
     width: 600px;   /*设置元素的宽度*/
     margin: 0 auto;  /*设置外边距，第一个值代表上方和下放，第二个值代表左边和右边；auto是水平方向上左右对称*/
-    background-color: #FF9500;  /*指定元素的背景颜色*/
+    background-color: #FF9500;  /*设置元素的背景颜色*/
     padding: 0 20px 20px 20px;  /*设置内边距，围绕元素的外部的空间；值以上、右、下、左的顺序排列*/
     border: 5px solid black;    /*设置边框，紧接着内边距的线；这里是5像素的黑色实线边框*/
 }
