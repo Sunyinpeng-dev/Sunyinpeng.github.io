@@ -17,7 +17,7 @@ let myHeading = document.querySelector('h1');
 //个性化欢迎信息设置函数
 function setUserName() {
     let myName = prompt('请输入你的名字。');                    //prompt()：用于显示可提示用户进行输入的对话框。
-    if(!myName || myName === null) {
+    if(!myName || myName === null) {                           //使用条件语句判断输入是否为空，如果为空继续调用setUserName()函数。
         setUserName();
     } else {
         localStorage.setItem('name', myName);                   //localStorage API：将数据存储在浏览器中供后续获取。setItem()：创建一个name数据项，并把myName变量赋值给它。
