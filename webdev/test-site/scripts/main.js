@@ -1,4 +1,4 @@
-let myImage = document.querySelector('img');   //querySelector()函数获取标题的引用,并把它存储在myImage变量中。
+let myImage = document.querySelector('img');   //querySelector()函数:获取标题的引用,并把它存储在myImage变量中。
 
 myImage.onclick = function() {                 //onclick事件:事件会在对象被点击时发生；把一个匿名函数赋值给html的onclick属性；这里是把myImage变量的onclick事件与一个匿名函数绑定。
     let mySrc = myImage.getAttribute('src');   //getAttribute:返回指定属性名的属性值。(返回在index.html文件中<img>的src的属性值并赋值给变量mySrc)。
