@@ -27,8 +27,8 @@ function setUserName() {
 
 //初始化代码：在页面初次读取时进行构造工作
 if(!localStorage.getItem('name')) {                  //getItem()：获取保存的名字。
-    setUserName();                                   //在条件语句中使用取非运算符'!'来检测'name'数据是否存在，若不存在，调用setUserName()创建。
-} else {                                             //若存在，调用getItem()获取保存的名字。
+    setUserName();                                   //在条件语句中使用取非运算符'!'来检测'name'数据在浏览器中是否存在，若不存在，调用setUserName()创建。
+} else {                                             //若存在，从浏览器中调用getItem()获取保存的名字。
     let storedName = localStorage.getItem('name');   
     myHeading.textContent = 'Mozilla 棒极了,' + storedName;
 }
