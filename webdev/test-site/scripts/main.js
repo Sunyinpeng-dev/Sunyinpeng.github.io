@@ -5,7 +5,7 @@ myImage.onclick = function() {                 //onclick事件:事件会在对�
     if(mySrc === 'images/firefox-icon.png') {  //使用条件语句判断src的值是否等于原始图像的路径，如果是则改为第二张图片的地址，并在<img内加载该图片>，反之返回原始图片地址。
         myImage.setAttribute('src', 'images/firefox2.png');  //setAttribute()：添加指定的属性，并为其赋指定的值。
     } else {
-        myImage.setAttribute('src', 'images/firefox-icon.png')
+        myImage.setAttribute('src', 'images/firefox-icon.png');
     }
 };
 
